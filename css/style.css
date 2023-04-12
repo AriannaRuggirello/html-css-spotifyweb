@@ -122,6 +122,29 @@ display: none;
 }
 
 
+    /* RESPONSIVE menu mobile */
+    @media screen and (max-width:575px){
+    .display-menu{
+        display: none;
+    }
+
+    main{
+        width: calc(100% - 60px);
+    }
+    aside{
+        width: 60px;
+    }
+
+    .mobile-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .mobile-menu i{
+        display: block;
+    }
+}
+
+
 nav{
     padding: 20px 0;
     font-weight: bold;
