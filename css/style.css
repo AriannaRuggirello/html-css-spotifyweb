@@ -27,6 +27,7 @@ img{
 }
 
 button{
+    width: 200px;
     padding: 10px;
     border: 1px solid white;
     border-radius: 20px;
@@ -35,26 +36,38 @@ button{
 }
 
 section{
-    color: white;
-    margin: 30px 10px;
-
+    color: white; 
 }
+
+
+.info,section{
+    margin: 30px 10px;
+}
+
 .space{
     padding: 0 10px;
     margin: 0 -10px;
 }
-.gap{
-    gap: 30px;
+
+.icon{
+    width: 30px;
 }
 /* main */
 .upper{
     display: flex;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 100px);
+}
+
+main{
+    width: calc(100% - 250px);
+    height: 100%;
+    background-color: #141922;
+    overflow: scroll;
 }
 
 aside{
     height: 100%;
-    width: 300px;
+    width: 250px;
     background-color: black;
 }
 
@@ -93,16 +106,14 @@ aside h3{
     font-size: 40px;
 }
 
-main{
-    width: calc(100% - 300px);
-    height: 100%;
-    background-color: #141922;
-    overflow: scroll;
-}
-
 .upgrade{
     background-color: #080b12;
     height: 80px;
+}
+
+nav{
+    padding: 20px 0;
+    font-weight: bold;
 }
 
 /* recent played */
@@ -114,11 +125,18 @@ main{
 /* popular atrists */
 .popular-artist img{
     border-radius: 50%;
-
 }
 
 /* footer */
-footer{
-    height: 70px;
+footer .row{
     background-color: #282828;
+    max-height: 100px;
 }
+
+footer img{
+    max-width: 50px;
+}
+/* 
+footer h3{
+    display: inline;
+} */

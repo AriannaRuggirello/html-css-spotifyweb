@@ -14,61 +14,76 @@
 </head>
 <body>
     <div class="upper">
+        <!-- menù laterale -->
         <aside>
+            <!-- logo -->
             <div class="container">
-                <div class="logo">
+                <section class="logo">
                     <img src="img/logo-small.svg" alt="">
                     <h2>Spotify</h2>                   
-                </div>
+                </section>
 
-                <ul>
-                    <li>                        
-                        <a href="#">
-                            <i class="fa-solid fa-house grey"></i>
-                            Home
-                        </a>                        
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <i class="fa-solid fa-magnifying-glass grey"></i>
-                            Cerca
-                        </a>                        
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <i class="fa-solid fa-lines-leaning grey"></i>
-                            La tua libreria
-                        </a>                        
-                    </li>
-                </ul>
-
-                <h3>PLAYLIST</h3>
-                <ul>
-                    <li>
-                        <a href="#">
-                            <i class="fa-solid fa-square-plus grey"></i>
-                            Crea playlist
-                        </a>                        
-                    </li>
-                    <li>
-                        <a href="#">Nome playlist</a>
-                    </li>
+                <!-- home -->
+                <section>
+                    <ul>
+                        <li>                        
+                            <a href="#">
+                                <img class="icon" src="img/home.svg" alt="">
+                                <span>Home</span>                          
+                            </a>                        
+                        </li>
     
-                    <li>
-                        <a href="#">Nome playlist</a>
-                    </li>
+                        <li>
+                            <a href="#">
+                                <img class="icon" src="img/search.svg" alt="">
+                                <span>Cerca</span> 
+                            </a>                        
+                        </li>
     
-                    <li>
-                        <a href="#">Nome playlist</a>
-                    </li>
-    
-                    <li>
-                        <a href="#">Nome playlist</a>
-                    </li>
+                        <li>
+                            <a href="#">
+                                <img class="icon" src="img/libreria.svg" alt="">
+                                <span>La tua libreria</span> 
+                            </a>                        
+                        </li>
+                    </ul>
+                </section>
 
-                </ul>
+                <!-- playlist -->
+                <section class="playlist">
+                    <h3>PLAYLIST</h3>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-square-plus grey"></i>
+                                Crea playlist
+                            </a>                        
+                        </li>
+                        <li>
+                            <a href="#">Nome playlist</a>
+                        </li>
+        
+                        <li>
+                            <a href="#">Nome playlist</a>
+                        </li>
+        
+                        <li>
+                            <a href="#">Nome playlist</a>
+                        </li>
+        
+                        <li>
+                            <a href="#">Nome playlist</a>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- profile -->
+                <section class="bottom">
+                    <i class="fa-regular fa-circle-down"></i>
+                    <span class="grey">Installa app</span>
+                    <hr>
+                    <img class="icon" src="img/profile.svg" alt="">
+                </section>
 
             </div>          
 
@@ -80,7 +95,7 @@
                 <button>ESEGUI L'UPGRADE</button>
             </div>
             <!-- main nav -->
-            <div class="row center">
+            <nav class="row center">
                 <div class="col-lg-8">
                     <div class="row">
                         <div class="col-lg-2">
@@ -104,11 +119,14 @@
                     </div>
                 </div>
                     
-            </div>  
+            </nav>  
 
             <!-- recent played -->
             <section class="recent">
-                <h2>Recent Played</h2>
+                <div class="info">
+                    <h2>Recent Played</h2>
+                </div>
+
                 <div class="row around">
                     <div class="col-lg-2 space center">
                         <img src="img/metal_lifting.jpg" alt="">
@@ -145,8 +163,11 @@
             
             <!-- create for -->
             <section>
-                <h2>Create for Jhon Doe</h2>
-                <span class="grey">Più ascolti, più accurati saranno i suggerimenti</span>
+                <div class="info">
+                    <h2>Create for Jhon Doe</h2>
+                    <span class="grey">Più ascolti, più accurati saranno i suggerimenti</span>
+                </div> 
+
                 <div class="row">
                     <div class="col-lg-2  space center">
                         <img src="img/radar.jpeg" alt="">
@@ -162,8 +183,11 @@
 
             <!-- most popular artists -->
             <section class="popular-artist">
-                <h2>Artisti più popolari</h2>
-                <span class="grey">Più ascolti, più accurati saranno i suggerimenti</span>
+                <div class="info">
+                    <h2>Artisti più popolari</h2>
+                    <span class="grey">Più ascolti, più accurati saranno i suggerimenti</span>
+                </div>
+
                 <div class="row">
                     <div class="col-lg-2 space center">
                         <img src="img/youg.jpeg" alt="">
@@ -178,9 +202,77 @@
             </section>
         </main>
     </div>
+
     <!-- footer -->
     <footer>
+        <div class="row middle between">
+            
+            <!-- song -->
+            <section class="col-lg-3">
+                <div class="row">
 
+                    <div class="col-lg-3">
+                        <img src="img/sinister.jpeg" alt="">
+                    </div>
+
+                    <div class="col-lg-3">
+                        <h3>Sinister</h3>
+                        <span>Brano nome</span> 
+                    </div>
+                        
+                    <div class="col-lg-6">
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-regular fa-folder"></i>
+                    </div>
+
+                </div>
+            </section>
+    
+            <!-- player -->
+            <section class="col-lg-4">
+                <div class="row center">
+                    <div class="col-lg-12">
+                        <i class="fa-solid fa-shuffle"></i>
+                        <i class="fa-solid fa-backward-fast"></i>
+                        <i class="fa-regular fa-circle-play"></i>
+                        <i class="fa-solid fa-forward-fast"></i>
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </div>
+                </div>
+
+                <div class="row middle between">
+                    <div class="col-lg-1 bottom">
+                        <span>0:25</span>                        
+                    </div>
+                    <div class="col-lg-8">
+                        <hr>
+                    </div>
+                    <div class="col-lg-1">
+                        <span>4:35</span>
+                    </div>
+                </div>
+    
+            </section>
+    
+            <!-- volume -->
+            <section class="col-lg-3">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <i class="fa-solid fa-list-ul"></i>
+                    </div>
+                    <div class="col-lg-2">
+                        <i class="fa-solid fa-desktop"></i>
+                    </div>
+                    <div class="col-lg-2">
+                        <i class="fa-solid fa-volume-high"></i>
+                    </div>
+                    <div class="col-lg-6 midle">
+                        <hr>
+                    </div>
+                </div>
+            </section>
+
+        </div>
     </footer>
     
 </body>
