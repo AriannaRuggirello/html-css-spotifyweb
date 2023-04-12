@@ -1,19 +1,17 @@
+/* general */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'PT Sans', sans-serif;
 }
 
-.container{
-    width: 90%;
-    margin: 20px auto;
-}
-
 a{
     text-decoration: none;
+    color: #d2d2d2;  
 }
 
 li{
@@ -35,13 +33,19 @@ button{
     color: white;
 }
 
+h1{
+    color: white;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
 section{
     color: white; 
 }
 
-
-.info,section{
-    margin: 30px 10px;
+span{
+    color: #d2d2d2;
+    font-weight: bold;
 }
 
 .space{
@@ -52,6 +56,11 @@ section{
 .icon{
     width: 30px;
 }
+
+.title{
+    margin: 15px;
+}
+
 /* main */
 .upper{
     display: flex;
@@ -69,37 +78,25 @@ aside{
     height: 100%;
     width: 250px;
     background-color: black;
-}
-
-aside li,i,a:hover{
-    color: white;
-}
-
-.logo{
-    display: flex;
-    align-items: center;
-    max-height: 50px;   
-    margin-bottom: 20px;
-}
-
-aside img{
-    max-height: 50px;
-}
-
-h2{
-    color: white;
-    font-weight: bold;
-    font-size: 30px;
-    margin-left: 5px;
-}
-
-a,.grey{
     color: #d2d2d2;
 }
 
 aside h3{
     color: white;
     margin: 20px 0 10px 0;
+}
+
+/* aside li,i,a:hover{
+    color: white;
+} */
+
+.logo{
+    max-height: 80px;
+    padding: 20px 0;
+}
+
+.logo img{
+    max-height: 40px;
 }
 
 .fa-square-plus{
@@ -110,6 +107,16 @@ aside h3{
     background-color: #080b12;
     height: 80px;
 }
+
+.playlist{
+    overflow: scroll;
+}
+
+.profile{
+    background-color: grey;
+    border-radius: 50%;    
+}
+
 
 nav{
     padding: 20px 0;
@@ -128,15 +135,17 @@ nav{
 }
 
 /* footer */
-footer .row{
+footer{
     background-color: #282828;
-    max-height: 100px;
+    height: 100px;
+    padding: 30px 0;
 }
 
 footer img{
     max-width: 50px;
 }
-/* 
-footer h3{
-    display: inline;
-} */
+
+footer hr{
+    height: 5px;
+    background-color:#d2d2d2;
+}
