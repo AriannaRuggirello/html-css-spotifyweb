@@ -12,12 +12,12 @@ body{
 
 a{
     text-decoration: none;
-    color: #d2d2d2;  
+    color: #717171; 
+    font-weight: bold;
 }
 
 li{
-    list-style: none;
-    font-weight: bold;
+    list-style: none;    
     line-height: 30px;
 }
 
@@ -48,6 +48,12 @@ section{
 span{
     color: #d2d2d2;
     font-weight: bold;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .space{
@@ -81,7 +87,6 @@ aside{
     height:100%;
     width: 250px;
     background-color: black;
-    color: #d2d2d2;
 }
 
 aside h3{
@@ -89,6 +94,7 @@ aside h3{
     margin: 20px 0 10px 0;
 }
 
+/* logo */
 .logo{
     max-height: 80px;
     padding: 20px 0;
@@ -98,25 +104,48 @@ aside h3{
     max-height: 40px;
 }
 
-.fa-square-plus{
-    font-size: 40px;
-}
-
-.upgrade{
-    background-color: #080b12;
-    height: 80px;
-}
-
+ /* playlist */
 .playlist{
     height: 150px;
     overflow: scroll;
 }
 
+.fa-square-plus{
+    font-size: 40px;
+}
+
+/* profile */
 .profile{
     background-color: grey;
     border-radius: 50%;    
 }
 
+.profile-flex{
+    flex-grow: 1;
+    align-self: flex-end;
+    padding: 10px 0;
+}
+
+hr{
+    margin: 10px 0;
+}
+
+.fa-square-plus{
+    font-size: 40px;
+}
+
+.fa-circle-down{
+    color: #717171;
+
+}
+
+/* button */
+.upgrade{
+    background-color: #080b12;
+    height: 80px;
+}
+
+/* main nav */
 nav{
     padding: 20px 0;
     font-weight: bold;
@@ -154,15 +183,7 @@ aside{
 .mobile-logo{
     max-height: 35px;
 }
-
 }
-
-
-/* recent played */
-
-/*  */
-/* create for */
-
 
 /* popular atrists */
 .popular-artist img{
