@@ -497,12 +497,6 @@
     justify-content: space-between;
 }
 
-.flex-end{
-    align-self: flex-end;
-}
-
-
-
 
 
 /* responsive lg */ 
@@ -965,24 +959,5 @@
         margin-left: calc((100% / 12) * 12);
     }
 
-    /* menu mobile */
-    .display-menu{
-        display: none;
-    }
-
-    main{
-        width: calc(100% - 60px);
-    }
-    aside{
-        width: 60px;
-    }
-
-    .mobile-menu{
-        display: flex;
-        flex-direction: column;
-    }
-    .mobile-menu i{
-        display: block;
-    }
 }
 

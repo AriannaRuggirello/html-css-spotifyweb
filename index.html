@@ -16,16 +16,16 @@
     <div class="upper">
         <!-- menù laterale -->
         <aside>
-            <div class="row ">
-                <div class="col-lg-9 col-lg-offset-1 display-menu">
+            <div class="row display-menu ">
+                <div class="col-lg-9 col-lg-offset-1">
                     <!-- logo -->
-                    <section class="row middle logo ">
+                    <div class="row middle logo ">
                         <img src="img/logo-small.svg" alt="">
                         <h1>Spotify</h1>
-                    </section>                      
+                    </div>                      
     
                     <!-- home -->
-                    <section>
+                    <div>
                         <ul>
                             <li>                        
                                 <a href="#">
@@ -48,12 +48,12 @@
                                 </a>                        
                             </li>
                         </ul>
-                    </section>
+                    </div>
     
                     <!-- playlist -->
-                    <section class="playlist">
+                    <div >
                         <h3>PLAYLIST</h3>
-                        <ul>
+                        <ul class="playlist">
                             <li>
                                 <a href="#">
                                     <i class="fa-solid fa-square-plus grey"></i>
@@ -75,24 +75,36 @@
                             <li>
                                 <a href="#">Nome playlist</a>
                             </li>
-                        </ul>
-                    </section>
 
-                    <!-- profile -->
-                    <div class="row bottom">
-                        <section class="col-lg-12">
-                            <i class="fa-regular fa-circle-down"></i>
-                            <span>Installa app</span>
-                            <hr>
-                            <img class="icon profile" src="img/profile.svg" alt="">  
-                            <span>Jhone Doe</span> 
-                        </section>
-                    </div>
-                </div>
+                            <li>
+                                <a href="#">Nome playlist</a>
+                            </li>
+            
+                            <li>
+                                <a href="#">Nome playlist</a>
+                            </li>
+            
+                            <li>
+                                <a href="#">Nome playlist</a>
+                            </li>
+                        </ul>
+                    </div>                
+                </div>              
             </div> 
+                 
+                    <!-- profile -->               
+                    <div class="col-lg-9 col-lg-offset-1 bottom">
+                        <i class="fa-regular fa-circle-down"></i>
+                        <span>Installa app</span>
+                        <hr>
+                        <img class="icon profile" src="img/profile.svg" alt="">  
+                        <span>Jhone Doe</span> 
+                    </div>
+                    
             <!-- menu mobile -->
-            <div class="mobile-menu">
+            <div class="mobile-menu center">
                 <div class="col-xs-12 ">
+                    <img class="mobile-logo" src="img/logo-small.svg" alt="">
                     <img class="icon" src="img/home.svg" alt="">
                     <img class="icon" src="img/search.svg" alt="">
                     <img class="icon" src="img/libreria.svg" alt="">
@@ -181,8 +193,7 @@
                 <div class="title">
                     <h2>Create for Jhon Doe</h2>
                     <span>Più ascolti, più accurati saranno i suggerimenti</span>
-                </div> 
-
+                </div>
                 <div class="row">
                     <div class="col-lg-2  space center col-md-3 col-sm-6">
                         <img src="img/radar.jpeg" alt="">
@@ -194,6 +205,7 @@
                         <h3>Heavy Metal</h3>
                         
                     </div>
+                </div>
             </section>
 
             <!-- most popular artists -->
@@ -202,7 +214,6 @@
                     <h2>Artisti più popolari</h2>
                     <span>Più ascolti, più accurati saranno i suggerimenti</span>
                 </div>
-
                 <div class="row">
                     <div class="col-lg-2 space center col-md-3 col-sm-6">
                         <img src="img/youg.jpeg" alt="">
@@ -214,28 +225,29 @@
                         <h3>Heavy Metal</h3>
                         <span>Subtitle</span>
                     </div>
+                </div>    
             </section>
         </main>
     </div>
 
     <!-- footer -->
     <footer>
-        <div class="row middle around">
+        <div class="row middle between ">
             
             <!-- song -->
             <section class="col-lg-3 col-md-4 col-sm-4">
                 <div class="row middle">
 
-                    <div class="col-lg-3 col-md-3 col-sm-3">
+                    <div class="col-lg-1 col-md-3 col-sm-3">
                         <img src="img/sinister.jpeg" alt="">
                     </div>
 
-                    <div class="col-lg-3 col-md-4 col-sm-5 col-xs-offset-1">
+                    <div class="col-lg-offset-1 col-md-4 col-sm-5 col-xs-offset-1">
                         <h3>Sinister</h3>
                         <span>Brano nome</span> 
                     </div>
                         
-                    <div class="col-lg-6 col-md-3 col-sm-1">
+                    <div class="col-lg-offset-1 col-md-3 col-sm-1">
                         <i class="fa-regular fa-heart"></i>
                         <i class="fa-regular fa-folder"></i>
                     </div>
@@ -244,7 +256,7 @@
             </section>
     
             <!-- player -->
-            <section class="col-lg-4 col-md-4 col-sm-4">
+            <section class="col-lg-6 col-md-4 col-sm-4">
                 <div class="row center">
                     <div class="col-lg-6 col-sm-10">
                         <div class="row around">
@@ -258,13 +270,13 @@
                 </div>
 
                 <div class="row center middle">
-                    <div class="col-lg-1 col-md-2">
+                    <div class="col-lg-1 col-md-2 ">
                         <span>0:25</span>                        
                     </div>
-                    <div class="col-lg-8 dark-grey bar col-md-6">
+                    <div class="col-lg-8 dark-grey bar col-md-6 col-xs-offset-1">
                        <div class="white bar"></div> 
                     </div>
-                    <div class="col-lg-1 col-md-2">
+                    <div class="col-lg-1 col-md-2 col-xs-offset-1">
                         <span>4:35</span>
                     </div>
                 </div>
