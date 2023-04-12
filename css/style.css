@@ -7,6 +7,7 @@
 
 body{
     font-family: 'PT Sans', sans-serif;
+    
 }
 
 a{
@@ -65,6 +66,7 @@ span{
 .upper{
     display: flex;
     height: calc(100vh - 100px);
+    
 }
 
 main{
@@ -72,6 +74,7 @@ main{
     height: 100%;
     background-color: #141922;
     overflow: scroll;
+    
 }
 
 aside{
@@ -85,10 +88,6 @@ aside h3{
     color: white;
     margin: 20px 0 10px 0;
 }
-
-/* aside li,i,a:hover{
-    color: white;
-} */
 
 .logo{
     max-height: 80px;
@@ -117,6 +116,11 @@ aside h3{
     border-radius: 50%;    
 }
 
+/* menu mobile*/
+.mobile-menu{
+display: none;
+}
+
 
 nav{
     padding: 20px 0;
@@ -136,6 +140,11 @@ nav{
 
 /* footer */
 footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
     background-color: #282828;
     height: 100px;
     padding: 30px 0;
@@ -145,7 +154,16 @@ footer img{
     max-width: 50px;
 }
 
-footer hr{
-    height: 5px;
-    background-color:#d2d2d2;
+footer .bar{
+    height: 5px;   
+}
+
+footer .dark-grey{
+    width: 100%;
+    background-color:#1e1e1e;
+}
+
+footer .white{
+    width: 25%;
+    background-color: white; 
 }
