@@ -32,6 +32,7 @@ button{
     border-radius: 20px;
     background-color: #080b12;
     color: white;
+    transition: all 0.9ms ease-in-out 0.9ms;
 }
 
 h1{
@@ -111,6 +112,10 @@ footer .white:hover{
     background-color: greenyellow;
 }
 
+button:hover{
+    transform: scale(0.8);
+}
+
 /* main */
 .upper{
     display: flex;
@@ -140,17 +145,16 @@ aside h3{
 .display-menu{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     height: 100%;
-    /* margin-left: 20px; */
+    margin-left: 20px;
 }
 
 .item{
-    height: calc(100% / 4);
+    display: flex;
+    flex-direction: column;
 }
 
-.grow{
-    flex-grow: 1;
-}
 
 /* menu mobile*/
 .mobile-menu{
@@ -193,7 +197,6 @@ hr{
 
 .fa-circle-down{
     color: #717171;
-    padding: 10px 0;
 }
 
 /* button */
@@ -228,6 +231,11 @@ aside{
     justify-content: space-between;  
     height: 100%;
     padding-top: 20px;
+    align-items: center;
+}
+
+.item{
+    padding: 10px 0;
 }
 
 .mobile-logo{
@@ -236,6 +244,7 @@ aside{
 
 .fa-circle-down{
     display: block;
+    padding: 10px 0;
 }
 }
 
