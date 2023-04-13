@@ -68,6 +68,10 @@ span{
 a:hover,.fa-folder:hover,.fa-heart:hover{
     color: white;
 }
+/* border hover main nav bar  */
+nav a:hover{
+    border-bottom: greenyellow 2px solid;
+}
 
 /* hover imgs */
 .container{
