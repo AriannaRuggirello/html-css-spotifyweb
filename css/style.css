@@ -110,6 +110,7 @@ nav a:hover{
 /* footer bar hover */
 footer .white:hover{
     background-color: greenyellow;
+    cursor: pointer;
 }
 
 button:hover{
